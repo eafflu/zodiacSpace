@@ -1,6 +1,23 @@
 .container{
     margin:auto;
 }
+h4{
+    font-size: 40px !important; 
+
+}
+p{
+    font-size: 20px !important;
+}
+
 img{
     width: 100%
+}
+.vertical-center {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    /* min-height: 100vh; */
+    /* These two lines are counted as one :-)       */
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
