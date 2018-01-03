@@ -1,3 +1,6 @@
+body{
+    background-image: url('/images/star.jpg')
+}
 .container{
     margin:auto;
 }
@@ -27,5 +30,6 @@ img{
 .zicon {
     width: 100px;
     height: 90px;
+    background-repeat: no-repeat;
     /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
 }
