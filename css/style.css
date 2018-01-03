@@ -12,6 +12,9 @@ p{
 img{
     width: 100%
 }
+.choose{
+    text-align: center;
+}
 .vertical-center {
     min-height: 100%;
     /* Fallback for browsers do NOT support vh unit */
