@@ -1,5 +1,5 @@
 p{
-    color:white
+    /* color:white */
 }
 .jumbotron{
     opacity: 0.2;
@@ -7,38 +7,38 @@ p{
 }
 .aries{
     background-image: url('/images/aries.jpeg');
-    color: white
+    /* color: white */
 }
 .gemini{
     background-image: url('/images/gemini.jpg')
 }
 .taurus{
     background-image: url('/images/taurus.jpg');
-    color : white
+    /* color : white */
 }
 .cancer{
     background-image: url('/images/cancer.jpg');
-    color: white;
+    /* color: white; */
     
 }
 .leo{
     background-image: url('/images/leo.jpg');
-    color: white;
+    /* color: white; */
     
 }
 .virgo{
     background-image: url('/images/virgo.jpg');
-    color: white;
+    /* color: white; */
     
 }
 .libra{
     background-image: url('/images/libra.jpeg');
-    color: white;
+    /* color: white; */
     
 }
 .scorpio{
     background-image: url('/images/scorpio.jpg');
-    color: white;
+    /* color: white; */
 }
 .capricorn{
     background-image: url('/images/capricorn.gif')
