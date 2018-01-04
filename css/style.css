@@ -1,65 +1,84 @@
-p{
-    /* color:white */
-}
+
 .jumbotron{
     opacity: 0.2;
-    color: black !important;
+    color: black !important
 }
+.table-responsive{
+
+}
+
 .aries{
     background-image: url('/images/aries.jpeg');
-    /* color: white */
+    color: white;
 }
 .gemini{
-    background-image: url('/images/gemini.jpg')
+    background-image: url('/images/gemini.jpg');
+    color: white;
 }
+
+
 .taurus{
     background-image: url('/images/taurus.jpg');
-    /* color : white */
+    color : white
 }
 .cancer{
     background-image: url('/images/cancer.jpg');
-    /* color: white; */
+    color: white;
     
 }
 .leo{
     background-image: url('/images/leo.jpg');
-    /* color: white; */
+    color: white;
     
 }
 .virgo{
     background-image: url('/images/virgo.jpg');
-    /* color: white; */
+    color: white;
     
 }
 .libra{
     background-image: url('/images/libra.jpeg');
-    /* color: white; */
+    color: white;
     
 }
 .scorpio{
     background-image: url('/images/scorpio.jpg');
-    /* color: white; */
+    color: white;
 }
 .capricorn{
-    background-image: url('/images/capricorn.gif')
+    background-image: url('/images/capricorn.gif');
+    color: white;
+    
 }
 .sagittarius{
-    background-image: url('/images/sagittarius.jpg')
+    background-image: url('/images/sagittarius.jpg');
+    color: white;
+    
+
 }
 .aquarius{
-    background-image: url('/images/aquarius.jpg')
+    background-image: url('/images/aquarius.jpg');
+    color: white;
+    
 }
 .pisces{
-    background-image: url('/images/pisces.jpg')
+    background-image: url('/images/pisces.jpg');
+    color: white;
+    
 }
 
 .main{
     background-image: url('/images/star.jpg');
+    
 }
 .container{
     margin:auto;
-    color: white
 }
+.traits{
+    /* opacity: 0.2; */
+    color:white;
+}
+
 h4{
     font-size: 40px !important; 
     
@@ -72,7 +91,6 @@ p{
 
 img{
     width: 100%;
-    color: white;
 }
 .choose{
     text-align: center;
