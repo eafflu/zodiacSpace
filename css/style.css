@@ -66,9 +66,13 @@
     color: white;
     
 }
+.main .jumbotron{
 
-.main{
+opacity: 0.5;    
+}
+.main {
     background-image: url('/images/star.jpg');
+    color: black !important;
     
 }
 .container{
