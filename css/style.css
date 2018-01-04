@@ -1,19 +1,78 @@
-body{
-    background-image: url('/images/star.jpg')
+p{
+    color:white
+}
+.jumbotron{
+    opacity: 0.2;
+    color: black !important;
+}
+.aries{
+    background-image: url('/images/aries.jpeg');
+    color: white
+}
+.gemini{
+    background-image: url('/images/gemini.jpg')
+}
+.taurus{
+    background-image: url('/images/taurus.jpg');
+    color : white
+}
+.cancer{
+    background-image: url('/images/cancer.jpg');
+    color: white;
+    
+}
+.leo{
+    background-image: url('/images/leo.jpg');
+    color: white;
+    
+}
+.virgo{
+    background-image: url('/images/virgo.jpg');
+    color: white;
+    
+}
+.libra{
+    background-image: url('/images/libra.jpeg');
+    color: white;
+    
+}
+.scorpio{
+    background-image: url('/images/scorpio.jpg');
+    color: white;
+}
+.capricorn{
+    background-image: url('/images/capricorn.gif')
+}
+.sagittarius{
+    background-image: url('/images/sagittarius.jpg')
+}
+.aquarius{
+    background-image: url('/images/aquarius.jpg')
+}
+.pisces{
+    background-image: url('/images/pisces.jpg')
+}
+
+.main{
+    background-image: url('/images/star.jpg');
 }
 .container{
     margin:auto;
+    color: white
 }
 h4{
     font-size: 40px !important; 
+    
 
 }
 p{
     font-size: 20px !important;
+    color: white
 }
 
 img{
-    width: 100%
+    width: 100%;
+    color: white;
 }
 .choose{
     text-align: center;
@@ -30,6 +89,7 @@ img{
 .zicon {
     width: 100px;
     height: 90px;
+    opacity: 0.5;
     background-repeat: no-repeat;
     /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
 }
