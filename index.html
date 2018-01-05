@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/main.js"></script>
     
  
 </head>
 <body class="main">
 <!-- header -->
 <!-- only one main header so id because its unique -->
-<div class="container">
+<div class="container tron">
 <div class="jumbotron">
     <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -50,13 +51,30 @@
 </section>
 <!-- FEATURES -->
 <section id="features">
-    <div class="container">
+    <div class="container pop">
+<div class="row well">
+    <div class="col-md-4">
+        <div class="view view-first">
+            <img src="/images/secretimage.png" />
+            <div class="mask">
+                <h2>Secret Wish</h2>
+                <p>What is Your Secret Wish Based on your zodiac sign?</p>
+                <a href="/wish.html" class="info">Let's Go</a>
+            </div>
+        </div>
+       
+        </div>
+        <div class="col-md-6">
+            <p class="popped text-center">On click some shit should pop off, ideally i would like buttons to show up, maybe if i make an array containing all the signs and loop thru <br> and make a button for each one and append it to the column with the id of popped</p>
+        </div>
+</div>
+</div>
         
         <!-- ICON ROW 1 -->
         <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="row">
-                    <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="qitem col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <img class="zicon" src="/images/ariesZ.png" alt="">
                         
                         <a href="/signs/aries.html">
@@ -64,7 +82,7 @@
                         </a>
                 <p>Mar 21 - Apr 19th</p>
                 </div>
-                <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="qitem col-xs-12 col-sm-4 col-md-4 col-lg-4">
                     <img class="zicon" src="/images/taurusZ.png" alt="">
                     <a href="signs/taurus.html">
                         <h4>Taurus</h4>
@@ -72,7 +90,7 @@
                     <p>Apr 20 - May 20</p>
                 
                 </div>
-                <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="qitem col-xs-12 col-sm-4 col-md-4 col-lg-4">
                     <img class="zicon" src="/images/geminiZ.png" alt="">
                     <a href="signs/gemini.html">
                         <h4>Gemini</h4>
@@ -89,17 +107,17 @@
         <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="qitem col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <img class="zicon" src="/images/cancerZ.png" alt="">                       
                         <a href="signs/cancer.html"><h4>Cancer</h4></a>
                         <p>Jun 21 - Jul 22</p>
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="qitem col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <img class="zicon"src="/images/leoZ.png" alt="">
                         <a href="signs/leo.html"><h4>Leo</h4></a>
                         <p>Jul 23 - Aug 22</p>
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="qitem col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <img class="zicon" src="/images/virgoZ.png" alt="">
                         <a href="signs/virgo.html"><h4>Virgo</h4></a>
                         <p>Aug 23 - Sep 22</p>
@@ -110,17 +128,17 @@
         <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="qitem col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <img class="zicon" src="/images/libraZ.png" alt="">
                         <a href="signs/libra.html"><h4>Libra</h4></a>
                         <p>Sep 23 - Oct 22</p>
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="qitem col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <img class="zicon" src="/images/scorpioZ.png" alt="">
                         <a href="signs/scorpio.html"><h4>Scorpio</h4></a>
                         <p>Oct 23 - Nov 21</p>
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="qitem col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <img class="zicon" src="/images/sagittariusZ.png" alt="">
                         <a href="signs/sagittarius.html"><h4>Sagittarius</h4></a>
                         <p>Nov 22 - Dec 21</p>
@@ -135,17 +153,17 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             
                 <div class="row">
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="qitem col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <img class="zicon" src="/images/capricornZ.png" alt="">
                         <a href="signs/capricorn.html"><h4>Capricorn</h4></a>
                         <p>Dec 22 - Jan 19</p>
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="qitem col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <img class ="zicon" src="/images/aquariusZ.png" alt="">
                         <a href="signs/aquarius.html"><h4>Aquarius</h4></a>
                         <p>Jan 20 - Feb 18</p>
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="qitem col-xs-12 col-sm-4 col-md-4 col-lg-4">
                        <img class="zicon" src="/images/piscesZ.png" alt="">                      
                         <a href="signs/pisces.html"><h4>Pisces</h4></a>
                         <p>Feb 19 - Mar 20</p>
