@@ -244,4 +244,7 @@ button{
     padding: 3%;
     background-color:purple;
     position: relative;
+    width: 100px !important;
+margin: 17px !important;
+
 }

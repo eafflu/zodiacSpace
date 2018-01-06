@@ -9,7 +9,7 @@ $(".fuck").show()
 const $signs = ['aries', 'cancer', 'leo', 'virgo', 'aquarius', 'gemini', 'sagittarius', 'taurus', 'scorpio', 'leo', 'pisces', 'libra']
 console.log($signs, 'this is signs array')
 $signs.forEach(sign =>{
-    let signButton = $('<button>').text(`${sign}`).attr('class', 'fuck').addClass('btn btn-primary');
+    let signButton = $('<button>').text(`${sign}`).attr('class', 'fuck').addClass('btn btn-primary ');
     console.log('new button created?', $(signButton))
 signButton.appendTo('.popped')
 
