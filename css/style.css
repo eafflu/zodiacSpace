@@ -235,7 +235,8 @@ img{
 }
 
 body{
-
+background-image: url('/images/star.jpg') !important;
+color: black !important;
     background: no-repeat center center fixed;
     background-size: cover;
     
@@ -245,6 +246,6 @@ button{
     background-color:purple;
     position: relative;
     width: 100px !important;
-margin: 17px !important;
+margin: 20px !important;
 
 }
