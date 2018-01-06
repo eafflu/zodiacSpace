@@ -233,3 +233,9 @@ img{
 .view-first:hover a.info {
     transition-delay: 0.2s;
 }
+body{
+
+    background: no-repeat center center fixed;
+    background-size: cover;
+    
+}

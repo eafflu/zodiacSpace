@@ -5,7 +5,7 @@ $(document).ready(function(){
 console.log('been clicked')
 if(href === '/wish.html'){
 console.log('this worked')
-$(".popped").show()
+$(".fuck").show()
 const $signs = ['aries', 'cancer', 'leo', 'virgo', 'aquarius', 'gemini', 'sagittarius', 'taurus', 'scorpio', 'leo', 'pisces', 'libra']
 console.log($signs, 'this is signs array')
 $signs.forEach(sign =>{
