@@ -5,17 +5,17 @@ $(document).ready(function(){
 console.log('been clicked')
 if(href === '/wish.html'){
 console.log('this worked')
-$(".popped").toggle()
+$(".popped").show()
 const $signs = ['aries', 'cancer', 'leo', 'virgo', 'aquarius', 'gemini', 'sagittarius', 'taurus', 'scorpio', 'leo', 'pisces', 'libra']
 console.log($signs, 'this is signs array')
 $signs.forEach(sign =>{
-    let signButton = $('<button>').text(`${sign}`);
+    let signButton = $('<button>').text(`${sign}`).attr('class', 'fuck');
     console.log('new button created?', $(signButton))
+signButton.appendTo('.popped')
 
-    signButton.appendTo('.popped')
 
 });
-
+href = $(this).attr('href', '#')
 } else {
 
 
