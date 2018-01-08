@@ -7,65 +7,7 @@
 
 }
 
-.aries{
-    background-image: url('/images/aries.jpeg');
-    color: white;
-}
-.gemini{
-    background-image: url('/images/gemini.jpg');
-    color: white;
-}
 
-
-.taurus{
-    background-image: url('/images/taurus.jpg');
-    color : white
-}
-.cancer{
-    background-image: url('/images/cancer.jpg');
-    color: white;
-    
-}
-.leo{
-    background-image: url('/images/leo.jpg');
-    color: white;
-    
-}
-.virgo{
-    background-image: url('/images/virgo.jpg');
-    color: white;
-    
-}
-.libra{
-    background-image: url('/images/libra.jpeg');
-    color: white;
-    
-}
-.scorpio{
-    background-image: url('/images/scorpio.jpg');
-    color: white;
-}
-.capricorn{
-    background-image: url('/images/capricorn.gif');
-    color: white;
-    
-}
-.sagittarius{
-    background-image: url('/images/sagittarius.jpg');
-    color: white;
-    
-
-}
-.aquarius{
-    background-image: url('/images/aquarius.jpg');
-    color: white;
-    
-}
-.pisces{
-    background-image: url('/images/pisces.jpg');
-    color: white;
-    
-}
 .main .jumbotron{
 
 opacity: 0.5;    
@@ -242,7 +184,7 @@ color: black !important;
     
 }
 button{ 
-    padding: 3%;
+    /* padding: 3%; */
     background-color:purple;
     position: relative;
     width: 100px !important;
