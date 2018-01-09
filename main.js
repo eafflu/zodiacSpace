@@ -45,7 +45,7 @@ href = $(this).attr('href', '#')
         // for each button in the array create a click function
         sign.click(function(){
             $('.popped').empty()
-            $('.popped').append($secretWish[sign[0].textContent])
+            $('.popped').append($('<h1>').text($secretWish[sign[0].textContent])).addClass('secretText well')
         //    console.log($secretWish[sign[0].textContent])
         })
         
@@ -58,7 +58,7 @@ $('.choosy').hide()
         
 $('.jumbotron').hide();
 // have some kind of snow fall or some shit happen in the time between this and the page changing
-        $('.qitem').fadeOut(400, function () {
+        $('.qitem').fadeOut(0, function () {
             // go to link when animation completes
             
             window.location = href;
