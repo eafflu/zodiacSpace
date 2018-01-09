@@ -1,8 +1,10 @@
 $(document).ready(function(){
 $('.info').click(() => {
     $('.tron, .tapped').hide()
+    $('<a>').text('Refresh').prependTo('.popped').addClass('row btn btn-default btnRes text-center').attr('href', '/index.html')
 
 })
+
     $('a').click(function () {
         $('#icons .tron').hide();
         
