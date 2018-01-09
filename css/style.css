@@ -195,3 +195,13 @@ button{
 margin: 20px !important;
 
 }
+.tapped{
+    margin: 100px;
+    
+}
+.well {
+background-color: teal !important    ;
+border-style: dashed !important;
+
+    
+}

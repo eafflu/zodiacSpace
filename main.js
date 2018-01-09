@@ -1,12 +1,16 @@
 $(document).ready(function(){
+$('.info').click(() => {
+    $('.tron, .tapped').hide()
+
+})
     $('a').click(function () {
-        $('#icons').hide();
+        $('#icons .tron').hide();
         
         var href = $(this).attr('href');
         console.log(href)
 console.log('been clicked')
 if(href === '/wish.html'){
-    $('.choosy, .jumbotron #icons' ).hide()
+    $('.choosy, #icons' ).hide()
 
 console.log('this worked')
 $(".working").show()
@@ -35,7 +39,6 @@ signButton.appendTo('.popped')
 
 
 });
-    console.log($signButtons, "FINAL ARRAY")
 
 href = $(this).attr('href', '#')
 
@@ -44,6 +47,9 @@ href = $(this).attr('href', '#')
         
         // for each button in the array create a click function
         sign.click(function(){
+            
+                $('.tron').hide()
+            
             $('.popped').empty()
             $('.popped').append($('<h1>').text($secretWish[sign[0].textContent])).addClass('secretText well')
         //    console.log($secretWish[sign[0].textContent])
