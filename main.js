@@ -1,7 +1,6 @@
 $(document).ready(function(){
 $('.info').click(() => {
     $('.tron, .tapped').hide()
-    $('<a>').text('Refresh').prependTo('.popped').addClass('row btn btn-default btnRes text-center').attr('href', '/index.html')
 
 })
 
@@ -53,6 +52,8 @@ href = $(this).attr('href', '#')
                 $('.tron').hide()
             
             $('.popped').empty()
+    $('<a>').text('Refresh').prependTo('.popped').addClass('row btn btn-default btnRes text-center').attr('href', '/index.html')
+            
             $('.popped').append($('<h1>').text($secretWish[sign[0].textContent])).addClass('secretText well')
         //    console.log($secretWish[sign[0].textContent])
         })
