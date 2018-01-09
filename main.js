@@ -11,7 +11,20 @@ if(href === '/wish.html'){
 console.log('this worked')
 $(".working").show()
 const $signs = ['aries', 'cancer', 'leo', 'virgo', 'aquarius', 'gemini', 'sagittarius', 'taurus', 'scorpio', 'pisces', 'libra', 'capricorn']
-const $secretWish = ['To be number one', 'To take care of friends and family', 'To rule the world', 'To Be A Hero', 'To experience total freedom', 'To have all the answers', 'To make the rules', 'To have complete and total control', 'To Find unconditional Love', 'To love and be loved in return', 'To have every need taken care of']
+const $secretWish = {
+    aries: 'To be number one', 
+    cancer:'To take care of friends and family',
+    leo:'To rule the world',
+     virgo: 'To Be A Hero',
+     aquarius: 'To experience total freedom',
+     gemini: 'To have all the answers', 
+     sagittarius:'To make the rules', 
+     scorpio:'To have complete and total control',
+     pisces:'To Find unconditional Love', 
+     taurus: ' To own the best of everything',
+     libra:'To love and be loved in return', 
+     capricorn:'To have every need taken care of'
+    }
 const $signButtons = []
 console.log($signs, 'this is signs array')
 $signs.forEach(sign =>{
@@ -28,10 +41,14 @@ href = $(this).attr('href', '#')
 
     $signButtons.forEach(function(sign){
         console.log(sign ,' this is sign in the each loop')
+        
         // for each button in the array create a click function
         sign.click(function(){
-            console.log(sign[0].textContent + ' has been clicked')
+            $('.popped').empty()
+            $('.popped').append($secretWish[sign[0].textContent])
+        //    console.log($secretWish[sign[0].textContent])
         })
+        
     })
 } else {
 
