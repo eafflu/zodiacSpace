@@ -3,20 +3,12 @@
     opacity: 0.2;
     color: black !important
 }
-.table-responsive{
-
-}
-
 
 .main .jumbotron{
 
 opacity: 0.5;    
 }
-.main {
-    background-image: url('/images/star.jpg');
-    color: black !important;
-    
-}
+
 .container{
     margin:auto;
 }
@@ -31,7 +23,7 @@ h4{
 
 }
 .secretText {
-    margin:  80px !important;
+    margin:  0px !important;
 }
 p{
     font-size: 20px !important;
@@ -78,7 +70,7 @@ img{
     text-align: center;
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
-    background: #fff url(../images/bgimg.jpg) no-repeat center center
+    /* background: #fff url('../images/bgimg.jpg') no-repeat center center */
 }
 
 .view .mask,
@@ -180,12 +172,22 @@ img{
     transition-delay: 0.2s;
 }
 
-body{
+.main{
 background-image: url('/images/star.jpg') !important;
-color: black !important;
+color: white!important;
     background: no-repeat center center fixed;
     background-size: cover;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
     
+}
+body {
+    color: white !important;
+    background-color: black !important;
+    background: no-repeat center center fixed;
+    background-size: cover;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 button{ 
     /* padding: 3%; */

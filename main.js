@@ -11,7 +11,7 @@ $('.info').click(() => {
         console.log(href)
 console.log('been clicked')
 if(href === '/wish.html'){
-    $('.choosy, #icons' ).hide()
+    $('.secrecy,.choosy, #icons' ).empty()
 
 console.log('this worked')
 $(".working").show()
@@ -36,7 +36,7 @@ $signs.forEach(sign =>{
     let signButton = $('<button>').text(`${sign}`).attr('class', 'working').addClass('btn btn-primary ').addClass(`${sign}`);
     $signButtons.push(signButton);
     console.log('new button created?', $(signButton))
-signButton.appendTo('.popped')
+signButton.appendTo('#icons')
 
 
 });
@@ -46,16 +46,19 @@ href = $(this).attr('href', '#')
     $signButtons.forEach(function(sign){
         console.log(sign ,' this is sign in the each loop')
         
+        
         // for each button in the array create a click function
         sign.click(function(){
+             
             
                 $('.tron').hide()
             
-            $('.popped').empty()
-    $('<a>').text('Refresh').prependTo('.popped').addClass('row btn btn-default btnRes text-center').attr('href', '/index.html')
+            $('.secrecy').empty()
+            $('<a>').text('Home').prependTo('.secrecy').addClass('row btn btn-default btnRes text-center')
+           
+
             
-            $('.popped').append($('<h1>').text($secretWish[sign[0].textContent])).addClass('secretText well')
-        //    console.log($secretWish[sign[0].textContent])
+            $('.secrecy').append($('<h1>').text($secretWish[sign[0].textContent])).addClass('secretText well')
         })
         
     })
